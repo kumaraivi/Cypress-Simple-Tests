@@ -1,0 +1,20 @@
+{
+  "name": "simple_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:viewport": "npx cypress run --spec='cypress/integration/Sample_Test/test.spec.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.3.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "dependencies": {
+    "cypress-xpath": "^1.6.2"
+  }
+}

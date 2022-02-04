@@ -1,0 +1,11 @@
+{
+    "watchForFileChanges":false,
+    "baseUrl":"https://the-internet.herokuapp.com",
+    "env":{
+        "username":"tomsmith"
+    },
+    "retries":{
+        "runMode":2,
+        "openMode":2
+    }
+}
